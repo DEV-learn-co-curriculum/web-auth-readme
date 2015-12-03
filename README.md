@@ -65,4 +65,3 @@ user_response = Faraday.get "https://api.github.com/user",
 Parse the response body using JSON, and save the username to `session[:username]`. Finally, redirect back to `'/'`.
 
 <a href="https://learn.co/lessons/web-auth-readme" data-visibility="hidden">Learn.co resource</a>
-another change
